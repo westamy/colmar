@@ -1,0 +1,47 @@
+html {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+
+}
+
+
+header {
+  height: 4rem;
+  border-bottom: 1px solid black;
+  position: sticky;
+  align-items: center;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+ul li{
+  display: inline-block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 1.0rem;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: auto;
+
+}
