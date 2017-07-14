@@ -30,6 +30,9 @@ ul li{
   padding-left: 1.0rem;
 
 }
+.menu {
+  align-items: flex-end;
+}
 
 nav a{
     text-decoration: none;
@@ -40,8 +43,9 @@ nav {
     background-color: white;
     color: black;
     justify-content: space-between;
-    padding-left: 1.5rem;
     padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1.25rem;
     margin: auto;
 
 }
