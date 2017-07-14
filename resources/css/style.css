@@ -1,51 +1,41 @@
 html {
   font-size: 16px;
+  font-family: font-family: 'Open Sans', sans-serif;
 }
-
-.container {
-  display: flex;
-  margin: auto;
-
-}
-
 
 header {
-  height: 4rem;
-  border-bottom: 1px solid black;
-  position: sticky;
-  align-items: center;
-  margin: auto;
+    height: 64px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid black;
 }
 
-.logo {
-  display: flex;
-  flex-grow: 1;
-  align-items: center;
+header .logo {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 1.5rem;
 }
 
-ul li{
-  display: inline-block;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-left: 1.0rem;
-
-}
-.menu {
-  align-items: flex-end;
+.logo img {
+    margin-right: 10px;
 }
 
-nav a{
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+nav ul li a {
     text-decoration: none;
     color: black;
-}
-
-nav {
-    background-color: white;
-    color: black;
-    justify-content: space-between;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-top: 1.25rem;
-    margin: auto;
-
 }
