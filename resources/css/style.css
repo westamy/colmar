@@ -41,7 +41,8 @@ header {
     background-color: white;
     margin: auto;
     display: flex;
-    border-bottom: 1px solid black;
+    position: fixed;
+
 }
 
 header .logo {
@@ -69,6 +70,20 @@ header nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-weight: 400;
+}
+.logo .colmar {
+  font-weight: 600;
+  font-size: 1.25rem;
+  font-family: 'Zilla Slab', serif;
+  letter-spacing: 1;
+}
+
+.logo .academy {
+  font-size: 1.25rem;
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+  letter-spacing: 1;
 }
 
 .banner-container{
@@ -117,11 +132,12 @@ nav ul li a {
 
 .practice-container{
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .practice-left{
   width: 60%;
-  padding: 2rem 0rem 2rem 1.5rem;
+  padding: 2rem 0rem 0rem 1.5rem;
 }
 
 .practice-image img {
@@ -251,20 +267,23 @@ nav ul li a {
     display: flex;
     display: block;
     width: 60%;
-    padding: 2rem 0rem 2rem 1.5rem;
+    padding: 0rem 0rem 2rem 2rem;
   }
 
 .thesis-video{
   width:100%;
+  padding-bottom: 1.5rem;
 }
 
+video {
+width: 100%
+}
 
   .thesis-right{
     width: 40%;
     display: flex;
     flex-direction: column;
     padding-left: 1.5rem;
-    padding-top: 1rem;
   }
 
   .thesis-item {
@@ -282,6 +301,10 @@ nav ul li a {
        padding: 0 0.75rem 0 1rem;
        }
 
+  .thesis-right .thesis-item:nth-child(1){
+         background-color: #e6e6e6;
+       }
+
   .thesis-image{
          width: 35%;
        }
@@ -293,4 +316,29 @@ nav ul li a {
 
   .thesis-info p{
     padding-right: 1.5rem;
+  }
+
+  footer {
+    background-color: #4a4a4a;
+    height: 128px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  footer nav a{
+    display: inline-block;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 1.5rem;
+    font-size: .85rem;
+  }
+
+  footer p{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    flex-grow: 1;
+    font-size: .85rem;
   }
