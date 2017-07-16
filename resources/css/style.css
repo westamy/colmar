@@ -62,18 +62,18 @@ header nav {
     margin-right: 1.5rem;
 }
 
-header nav ul li .desktop{
+header nav ul li {
     display: inline-block;
     padding-right: 1rem;
 }
 
-nav ul li a .desktop{
+nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: 400;
   }
 
-nav ul li a:hover .desktop{
+nav ul li a:hover{
     color: #40B7EB;
 }
 
